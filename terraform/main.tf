@@ -12,5 +12,7 @@ module "back-end" {
   source          = "./modules/back-end"
   dynamodb_name   = "visitor_count_2"
   hash_key        = "obj"
-
+  region          = "ap-southeast-1"
+  viewer_count    = "viewer_count"
+  count_api       = "count_api_2"
 }

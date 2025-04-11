@@ -3,7 +3,7 @@ import boto3
 from decimal import Decimal
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('visitor_count')
+table = dynamodb.Table('visitor_count_2')
 
 def lambda_handler(event, context):
     # Get the current visitor count
@@ -22,5 +22,5 @@ def lambda_handler(event, context):
             'Access-Control-Allow-Methods': 'GET, OPTIONS',
             'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'
         },
-        'body': json.dumps({'visitor_count': views}, default=str)
+        'body': json.dumps({'visitor_count_2': views}, default=str)
     }
