@@ -5,3 +5,12 @@ module "front-end" {
   origin_name   = "portfolio_site_access"
 
 }
+
+
+
+module "back-end" {
+  source          = "./modules/back-end"
+  dynamodb_name   = "visitor_count_2"
+  hash_key        = "obj"
+
+}
