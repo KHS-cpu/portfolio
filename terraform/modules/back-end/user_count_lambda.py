@@ -18,7 +18,7 @@ def lambda_handler(event, context):
     return {
         'statusCode': 200,
         'headers': {
-            'Access-Control-Allow-Origin': '*',  # Or use your domain: 'https://www.kaunghtetsan.tech'
+            'Access-Control-Allow-Origin': 'https://www.kaunghtetsan.tech',  # Or use "*" to allow all
             'Access-Control-Allow-Methods': 'GET, OPTIONS',
             'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'
         },
