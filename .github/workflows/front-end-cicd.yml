@@ -11,6 +11,7 @@ on:
 jobs:
   deploy-front-end-code:
     runs-on: ubuntu-latest
+    environment: Portfolio
 
     steps:
     #Step 1: To check out code
