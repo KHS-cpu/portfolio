@@ -3,13 +3,13 @@ console.log("Counter element:", counter);
 
 async function updateCounter() {
     try {
-        let response = await fetch("https://0t7s0bn590.execute-api.ap-southeast-1.amazonaws.com/prod/visitor_count");
+        let response = await fetch("https://3vcvj79nr6.execute-api.ap-southeast-1.amazonaws.com/prod/visitor_count");
         let data = await response.json();
 
         console.log("API response:", data);
 
-        if (data.visitor_count_2 !== undefined) {
-            counter.innerHTML = `🔁 This serverless resume just got another hit — visitor #${data.visitor_count_2} is you!`;
+        if (data.visitor_count !== undefined) {
+            counter.innerHTML = `🔁 This serverless resume just got another hit — visitor #${data.visitor_count} is you!`;
         } else {
             counter.innerHTML = `⚠️ Couldn't read visitor count.`;
         }
