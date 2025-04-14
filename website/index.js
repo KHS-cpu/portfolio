@@ -3,7 +3,8 @@ console.log("Counter element:", counter);
 
 async function updateCounter() {
     try {
-        let response = await fetch("https://3vcvj79nr6.execute-api.ap-southeast-1.amazonaws.com/prod/visitor_count");
+        const apiUrl = window.apiConfig.apiUrl;
+        let response = await fetch(apiUrl);
         let data = await response.json();
 
         console.log("API response:", data);
