@@ -121,3 +121,18 @@ resource "aws_api_gateway_method_settings" "gateway_throttle_setting" {
     throttling_burst_limit   = 100
   }
 }
+
+
+resource "aws_s3_object" "config_js" {
+  bucket = var.bucket_name
+  key    = "config.js"
+
+  content = <<EOF
+window.apiConfig = {
+  apiUrl: "https://${aws_api_gateway_rest_api.count_api.id}.execute-api.ap-southeast-1.amazonaws.com/prod/visitor_count"
+};
+EOF
+
+  content_type = "application/javascript"
+  # acl          = "public-read"
+}

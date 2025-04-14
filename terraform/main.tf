@@ -13,11 +13,12 @@ module "front-end" {
 
 module "back-end" {
   source          = "./modules/back-end"
-  dynamodb_name   = "visitor_count_2"
+  dynamodb_name   = "visitor_count"
   hash_key        = "obj"
   region          = "ap-southeast-1"
   viewer_count    = "viewer_count"
-  count_api       = "count_api_2"
+  count_api       = "count_api"
+  bucket_name     = module.front-end.bucket_name
   #  providers = {
   #   aws = aws.se  
   # }

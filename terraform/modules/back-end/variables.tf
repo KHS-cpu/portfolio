@@ -22,3 +22,8 @@ variable "count_api" {
   description = "This is the REST api name"
   type = string
 }
+
+variable "bucket_name" {
+  description = "This is the bucket name of s3"
+  type = string
+}
