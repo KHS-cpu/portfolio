@@ -9,8 +9,8 @@ async function updateCounter() {
 
         console.log("API response:", data);
 
-        if (data.visitor_count !== undefined) {
-            counter.innerHTML = `🔁 This serverless resume just got another hit — visitor #${data.visitor_count} is you!`;
+        if (data.visitor_count_2 !== undefined) {
+            counter.innerHTML = `🔁 This serverless resume just got another hit — visitor #${data.visitor_count_2} is you!`;
         } else {
             counter.innerHTML = `⚠️ Couldn't read visitor count.`;
         }
