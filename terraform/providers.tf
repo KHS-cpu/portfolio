@@ -7,16 +7,16 @@ terraform {
   }
 }
 
+provider "aws" {
+  # Configuration options
+}
+
 # provider "aws" {
-#   # Configuration options
+#   region = "us-east-1"
+#   alias = "useast"
 # }
 
-provider "aws" {
-  region = "us-east-1"
-  alias = "useast"
-}
-
-provider "aws" {
-  region = "ap-southeast-1"
-  alias = "se"
-}
+# provider "aws" {
+#   region = "ap-southeast-1"
+#   alias = "se"
+# }
