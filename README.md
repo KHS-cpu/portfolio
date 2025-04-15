@@ -31,7 +31,7 @@ Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudW
 ---
 
 # 📁 Project Structure
-`portfolio/
+```portfolio/
 ├── terraform/
 │   ├── main.tf                     #Entry point for terraform to implement all modules.
 │   ├── backend.tf                  #Terraform to use Terraform cloud for state management.
@@ -56,7 +56,7 @@ Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudW
 │   └── website/                    #This folder stores the final static website files that have been built (e.g., HTML, CSS, JavaScript). These files are uploaded to the S3 bucket provisioned in the front-end module.
 ├── .github/                        #This is the GitHub-specific folder for automating workflows using GitHub Actions.
 │   └── workflows/                  #Contains YAML files for CI/CD automation.
-│       └── front-end-cicd.yml      #A GitHub Actions workflow file that automatically deploys or syncs front-end static site to S3 (and optionally invalidates CloudFront) when changes are pushed to the repository.`
+│       └── front-end-cicd.yml      #A GitHub Actions workflow file that automatically deploys or syncs front-end static site to S3 (and optionally invalidates CloudFront) when changes are pushed to the repository.```
 
 ---
 
