@@ -13,6 +13,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  font-size: 3.75rem;
+  font-weight: 700;
   margin: 60px auto 0;
 }
 
@@ -23,7 +25,7 @@
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(1, 100%);
-  min-height: 875px;
+  min-height: 901px;
   grid-auto-columns: 100%;
   grid-gap: 30px;
 }
@@ -249,11 +251,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
-    font-weight: 700;
-  }
-
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
   }
