@@ -16,20 +16,6 @@ Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudW
 
 ---
 
-## 🔧 Tech Stack
-
-- **Terraform** (modularized IaC)
-- **AWS S3** (static site hosting)
-- **AWS CloudFront** (global content delivery)
-- **AWS Route 53** (domain and DNS)
-- **AWS Lambda** (backend logic)
-- **API Gateway** (exposes Lambda via REST endpoint)
-- **DynamoDB** (stores visitor count)
-- **CloudWatch** (monitoring and alarms)
-- **GitHub Actions** (CI/CD pipeline)
-
----
-
 # 📁 Project Structure
 <pre><code>portfolio/
 ├── terraform/
@@ -60,25 +46,46 @@ Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudW
 
 ---
 
+## Directory Explanation for website
+- website/: Contains the final static website files
+`index.html`: Main html file for website
+`index.js`: Javascript file for interacting with API.
+`config.js`: Javascript file to fetch the API Gateway Link and import to `index.js`file.
+
+---
+
 # ⚙️ Key Components
 ## 1. Static Hosting
 - S3 stores website files.
 - CloudFront distributes them with SSL (OAC enabled).
 - Route 53 maps the domain.
 
-- ## 2. Backend Visitor Count
+## 2. Backend Visitor Count
 - API Gateway exposes a REST endpoint.
 - Lambda (Python) increases and fetches visitor data.
 - DynamoDB stores the visitor count keyed by an identifier.
 
-## 3. CI/CD Pipeline
+## 3. Infrastructure as Code (IaC)
+- All resources are managed by terraform with backedn terraform cloud enabling the state control and more secure.
+
+## 4. CI/CD Pipeline
 - GitHub Actions auto-deploys frontend updates to S3 upon code push.
 - Enables full automation with zero manual work.
 
-## 4. Monitoring
+## 5. Monitoring
 - CloudWatch Alarms track:
  - Lambda errors
  - Monthly billing thresholds
+- PagerDuty escales alarms to teams and tracking alerts.
+
+---
+
+# 🔮 Future Enhancements
+- Add Slack alerting integration for real-time incident reporting.
+- Expand CI/CD to include Terraform modules.
+- DNSSEC for extra domain security.
+- Include more AWS services like Cognito, SES, or SQS for real-world complexity.
+
 
 
 
