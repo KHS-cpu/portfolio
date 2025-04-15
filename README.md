@@ -48,9 +48,9 @@ Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudW
 
 ## Directory Explanation for website
 - website/: Contains the final static website files
-`index.html`: Main html file for website
-`index.js`: Javascript file for interacting with API.
-`config.js`: Javascript file to fetch the API Gateway Link and import to `index.js`file.
+ - `index.html`: Main html file for website
+ - `index.js`: Javascript file for interacting with API.
+ - `config.js`: Javascript file to fetch the API Gateway Link and import to `index.js`file.
 
 ---
 
