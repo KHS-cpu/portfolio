@@ -73,7 +73,7 @@ Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudW
 - Enables full automation with zero manual work.
 
 ## 5. Monitoring
-- CloudWatch Alarms track:
+- **CloudWatch Alarms track:**
  - Lambda errors
  - Monthly billing thresholds
 - PagerDuty escales alarms to teams and tracking alerts.
