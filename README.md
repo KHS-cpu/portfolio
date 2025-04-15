@@ -7,12 +7,12 @@ This project [**kaunghtetsan.tech**](https://www.kaunghtetsan.tech) demonstrates
 ---
 
 ## 🌐 Features
-Static Website Hosting: Resume portfolio hosted in an S3 bucket and served securely via CloudFront with Origin Access Control (OAC).
-Custom Domain: Managed through Route 53 using a domain kaunghtetsan.tech.
-Visitor Tracking: A live visitor counter implemented with API Gateway, AWS Lambda, and DynamoDB.
-Infrastructure as Code (IaC): Entire infrastructure is built and maintained using Terraform modules.
-CI/CD Pipeline: Frontend updates are automatically deployed using GitHub Actions on every push.
-Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudWatch.
+- Static Website Hosting: Resume portfolio hosted in an S3 bucket and served securely via CloudFront with Origin Access Control (OAC).
+- Custom Domain: Managed through Route 53 using a domain kaunghtetsan.tech.
+- Visitor Tracking: A live visitor counter implemented with API Gateway, AWS Lambda, and DynamoDB.
+- Infrastructure as Code (IaC): Entire infrastructure is built and maintained using Terraform modules.
+- CI/CD Pipeline: Frontend updates are automatically deployed using GitHub Actions on every push.
+- Monitoring and Alerts: Lambda errors and billing alerts are tracked using CloudWatch.
 
 ---
 
