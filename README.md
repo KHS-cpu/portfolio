@@ -1,5 +1,5 @@
 # Cloud Resume Project Overview
-This project [**kaunghtetsan.tech**](https://www.kaunghtetsan.tech) demonstrates a fully serverless, automated, and scalable cloud portfolio website hosted on AWS using Terraform (IaC) for infrastructure management and a CI/CD pipelinewhat for continuous deployment. It showcases skills in cloud architecture, automation, monitoring, and backend development—all without manual intervention after the initial deployment.
+This project [**kaunghtetsan.tech**](https://www.kaunghtetsan.tech) demonstrates a fully serverless, automated, and scalable cloud portfolio website hosted on AWS using Terraform (IaC) for infrastructure management and a CI/CD pipeline for continuous deployment. It showcases skills in cloud architecture, automation, monitoring, and backend development all without manual intervention after the initial deployment.
 
 ## Project Diagram
 ![Portfolio Architecture](https://github.com/KHS-cpu/portfolio/blob/main/portfolio%20site.jpg?raw=true)
@@ -66,7 +66,7 @@ This project [**kaunghtetsan.tech**](https://www.kaunghtetsan.tech) demonstrates
 - DynamoDB stores the visitor count keyed by an identifier.
 
 ## 3. Infrastructure as Code (IaC)
-- All resources are managed by terraform with backedn terraform cloud enabling the state control and more secure.
+- All resources are managed by terraform with backend terraform cloud enabling the state control and more secure.
 
 ## 4. CI/CD Pipeline
 - GitHub Actions auto-deploys frontend updates to S3 upon code push.
