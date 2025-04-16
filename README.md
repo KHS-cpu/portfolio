@@ -2,7 +2,7 @@
 This project [**kaunghtetsan.tech**](https://www.kaunghtetsan.tech) demonstrates a fully serverless, automated, and scalable cloud portfolio website hosted on AWS using Terraform (IaC) for infrastructure management and a CI/CD pipeline for continuous deployment. It showcases skills in cloud architecture, automation, monitoring, and backend development all without manual intervention after the initial deployment.
 
 ## Project Diagram
-![Portfolio Architecture](https://github.com/KHS-cpu/portfolio/blob/main/portfolio%20site.jpg?raw=true)
+![Portfolio Architecture](https://github.com/KHS-cpu/portfolio/blob/main/portfolio%20site.jpg)
 
 ---
 
