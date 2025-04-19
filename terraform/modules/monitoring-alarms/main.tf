@@ -60,5 +60,10 @@ resource "aws_cloudwatch_metric_alarm" "monthly_budget_alarm" {
   alarm_description         = "Your billing amount is exceeding the threshold of 2$"
   alarm_actions             = [aws_sns_topic.alerts_us.arn]
   provider                  = aws.us-east-1
+  dimensions = {
+    Currency = "USD"
+  }
+
+  treat_missing_data = "notBreaching"
 }
 
