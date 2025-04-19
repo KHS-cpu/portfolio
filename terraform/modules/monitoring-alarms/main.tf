@@ -15,14 +15,16 @@ resource "aws_cloudwatch_metric_alarm" "lambda_function_alarm" {
   alarm_name                = "lambda_function_alarm"
   comparison_operator       = "GreaterThanOrEqualToThreshold"
   evaluation_periods        = 1
-  metric_name               = "EstimatedCharges"
+  metric_name               = "Errors"
   namespace                 = "AWS/Lambda"
   period                    = 3600 #Check once every 1 hour(Value shown in seconds)
   statistic                 = "Sum"
   threshold                 = 1
   alarm_description         = "Your lambda function is having errors"
+  treat_missing_data        = "notBreaching"
   dimensions = {
     FunctionName = var.lambda_function_name
+    Currency = "USD"
   }
   alarm_actions             = [aws_sns_topic.alerts.arn]
 }
