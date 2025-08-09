@@ -10,7 +10,7 @@ in record time">
 <link rel="stylesheet" href="index.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 11.4, nicepage.com">
+    <meta name="generator" content="Nicepage 7.7.3, nicepage.com">
     
     
     
@@ -26,25 +26,25 @@ in record time">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en"><header class="u-box-shadow u-clearfix u-grey-10 u-header u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-header" id="header"><nav class="u-align-center u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation" aria-label="Menu navigation">
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-box-shadow u-clearfix u-grey-10 u-header u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-header" id="header"><nav class="u-align-center u-menu u-menu-one-level u-offcanvas u-menu-1">
         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; text-transform: uppercase; font-weight: 500;">
-          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="a84d">
+          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
             <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
             <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
 </g></svg>
           </a>
         </div>
         <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-2 u-unstyled u-nav-1" role="menubar"><li class="u-nav-item" role="none"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="./" style="padding: 1px 122px;" role="menuitem">Home</a>
-</li><li class="u-nav-item" role="none"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Projects.html" style="padding: 1px 122px;" role="menuitem">Projects</a>
-</li><li class="u-nav-item" role="none"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Experiences.html" style="padding: 1px 122px;" role="menuitem">Experiences</a>
-</li><li class="u-nav-item" role="none"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Certifications.html" style="padding: 1px 122px;" role="menuitem">Certifications</a>
+          <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="./" style="padding: 1px 122px;">Home</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Projects.html" style="padding: 1px 122px;">Projects</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Experiences.html" style="padding: 1px 122px;">Experiences</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Certifications.html" style="padding: 1px 122px;">Certifications</a>
 </li></ul>
         </div>
-        <div class="u-custom-menu u-nav-container-collapse" id="a84d" role="region" aria-label="Menu panel">
+        <div class="u-custom-menu u-nav-container-collapse">
           <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
             <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
+              <div class="u-menu-close"></div>
               <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Projects.html">Projects</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Experiences.html">Experiences</a>
@@ -71,15 +71,13 @@ in record time">
                   <a href="files/KaungHtetSanResume.pdf" class="u-active-palette-5-dark-2 u-align-center u-border-none u-btn u-btn-round u-button-style u-file-link u-hover-palette-5-dark-2 u-palette-3-base u-radius-8 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-1">Download cv&nbsp;&nbsp;<span class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/959159-5d3ea7b7.png" alt=""></span>
                   </a>
                   <p class="u-align-center u-text u-text-white u-text-3">
-                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-2" href="https://github.com/KHS-cpu"><span class="u-file-icon u-icon u-icon-2" data-href="https://github.com/KHS-cpu"><img src="images/919847.png" alt=""></span>&nbsp;GitHub&nbsp; | 
+                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-2" href="https://github.com/KHS-cpu"><span class="u-file-icon u-icon" data-href="https://github.com/KHS-cpu"><img src="images/919847.png" alt=""></span>&nbsp;GitHub&nbsp; | 
                     </a>
                   </p>
                   <p class="u-align-center u-text u-text-white u-text-4">
-                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-3" href="https://www.linkedin.com/in/kaung-htet-san-sam/"><span class="u-file-icon u-icon u-icon-3" data-href="https://www.linkedin.com/in/kaung-htet-san-sam/"><img src="images/icons8-linkedin-48.png" alt=""></span>&nbsp;LinkedIn&nbsp; |
+                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-3" href="https://www.linkedin.com/in/kaung-htet-san-sam/"><span class="u-file-icon u-icon" data-href="https://www.linkedin.com/in/kaung-htet-san-sam/"><img src="images/icons8-linkedin-48.png" alt=""></span>&nbsp;LinkedIn
                     </a>
                   </p>
-                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-4" href="https://blogs.kaunghtetsan.tech/"><span class="u-file-icon u-icon u-icon-4" data-href="https://www.linkedin.com/in/kaung-htet-san-sam/"><img src="images/3959542.png" alt=""></span>&nbsp;Blog
-                  </a>
                 </div>
               </div>
             </div>
@@ -88,7 +86,10 @@ in record time">
         <div class="u-container-style u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-grey-15 u-group u-radius u-shape-round u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0" data-animation-out="0">
           <div class="u-container-layout u-container-layout-2">
             <h3 class="u-align-center-xs u-text u-text-default u-text-5"> 👋 About Me</h3>
-            <p class="u-custom-font u-text u-text-default u-text-6"> Hi, I’m Kaung Htet San — a Cloud Infrastructure Engineer with over 7 years of experience in building and managing enterprise-grade infrastructure. My background spans Linux system administration, VMware, and OpenStack, with a strong shift toward cloud-native technologies. I specialize in automating infrastructure with Terraform, deploying workloads with Kubernetes, and designing scalable, reliable systems on AWS. This portfolio reflects the projects I’ve delivered — from private cloud setups to public cloud automation — showcasing my ability to build resilient, production-ready environments. I’m passionate about simplifying infrastructure through automation and continuously evolving with the latest in cloud and DevOps practices.</p>
+            <p class="u-custom-font u-text u-text-default u-text-6"> Hi, I’m Kaung Htet San — a Cloud Infrastructure Engineer with over 7 years of experience in building and managing private cloud environments. My journey started deep in the world of Linux, virtualization with VMware, OpenStack, and enterprise system integration. Over the years, I’ve developed a strong foundation in designing reliable infrastructure, automating processes with tools like Terraform, and managing containerized workloads using Kubernetes.
+But the world of cloud is always evolving, and so am I.
+I specialize in designing cloud-native solutions using AWS, Kubernetes, and Terraform — automating infrastructure, deploying containerized workloads, and ensuring high availability across environments. My work reflects a strong commitment to operational excellence, infrastructure-as-code, and DevOps best practices.
+This portfolio showcases the real-world projects I’ve built — not just as experiments, but as proof of my capabilities as a modern Cloud Engineer. I believe great infrastructure should be simple, scalable, and resilient — and that’s exactly what I deliver.</p>
           </div>
         </div>
         <p class="Visitor-Counter u-align-center-xs u-text u-text-body-alt-color u-text-7">
