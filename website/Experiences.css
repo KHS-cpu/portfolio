@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1960px;
+  min-height: 1966px;
 }
 
 .u-section-1 .u-text-1 {
@@ -23,7 +23,8 @@
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(1, 100%);
   min-height: 1458px;
-  grid-gap: 0px;
+  --gap: 0px;
+  grid-auto-columns: 100%;
 }
 
 .u-section-1 .u-list-item-1 {
@@ -302,6 +303,7 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-gap: 0px;
   }
 
   .u-section-1 .u-line-1 {
