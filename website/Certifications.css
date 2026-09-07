@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1094px;
+  min-height: 1208px;
   margin: 0 auto;
 }
 
@@ -150,15 +150,62 @@
   padding: 0;
 }
 
+.u-section-1 .u-layout-wrap-3 {
+  width: 1033px;
+  margin: 68px auto -68px;
+}
+
+.u-section-1 .u-layout-cell-10 {
+  min-height: 252px;
+}
+
+.u-section-1 .u-container-layout-10 {
+  padding: 0 11px;
+}
+
 .u-section-1 .u-image-2 {
   width: 148px;
   height: 148px;
-  margin: 68px auto 60px 109px;
+  margin: 35px auto 0;
+}
+
+.u-section-1 .u-layout-cell-11 {
+  min-height: 252px;
+}
+
+.u-section-1 .u-container-layout-11 {
+  padding: 14px 11px;
+}
+
+.u-section-1 .u-layout-cell-12 {
+  background-image: none;
+  min-height: 252px;
+}
+
+.u-section-1 .u-container-layout-12 {
+  padding: 20px;
+}
+
+.u-section-1 .u-layout-cell-13 {
+  background-image: none;
+  min-height: 252px;
+}
+
+.u-section-1 .u-container-layout-13 {
+  padding: 20px;
+}
+
+.u-section-1 .u-layout-cell-14 {
+  min-height: 252px;
+}
+
+.u-section-1 .u-container-layout-14 {
+  padding: 30px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1060px;
+    min-height: 1020px;
   }
 
   .u-section-1 .u-text-1 {
@@ -213,11 +260,35 @@
   .u-section-1 .u-layout-cell-9 {
     min-height: 100px;
   }
+
+  .u-section-1 .u-layout-wrap-3 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-layout-cell-10 {
+    min-height: 229px;
+  }
+
+  .u-section-1 .u-layout-cell-11 {
+    min-height: 229px;
+  }
+
+  .u-section-1 .u-layout-cell-12 {
+    min-height: 229px;
+  }
+
+  .u-section-1 .u-layout-cell-13 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-14 {
+    min-height: 229px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 978px;
+    min-height: 843px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -264,11 +335,35 @@
   .u-section-1 .u-layout-cell-9 {
     min-height: 179px;
   }
+
+  .u-section-1 .u-layout-wrap-3 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-layout-cell-10 {
+    min-height: 175px;
+  }
+
+  .u-section-1 .u-layout-cell-11 {
+    min-height: 143px;
+  }
+
+  .u-section-1 .u-layout-cell-12 {
+    min-height: 143px;
+  }
+
+  .u-section-1 .u-layout-cell-13 {
+    min-height: 143px;
+  }
+
+  .u-section-1 .u-layout-cell-14 {
+    min-height: 175px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 3122px;
+    min-height: 3884px;
   }
 
   .u-section-1 .u-text-1 {
@@ -360,11 +455,60 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-1 .u-layout-wrap-3 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-layout-cell-10 {
+    min-height: 525px;
+  }
+
+  .u-section-1 .u-container-layout-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-11 {
+    min-height: 525px;
+  }
+
+  .u-section-1 .u-container-layout-11 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-12 {
+    min-height: 525px;
+  }
+
+  .u-section-1 .u-container-layout-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-13 {
+    min-height: 525px;
+  }
+
+  .u-section-1 .u-container-layout-13 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-14 {
+    min-height: 131px;
+  }
+
+  .u-section-1 .u-container-layout-14 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 2228px;
+    min-height: 2543px;
   }
 
   .u-section-1 .u-text-1 {
@@ -427,5 +571,33 @@
     transform: rotate(0deg);
     opacity: 1;
     background-position: 50% 0vh;
+  }
+
+  .u-section-1 .u-layout-wrap-3 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-layout-cell-10 {
+    min-height: 331px;
+  }
+
+  .u-section-1 .u-layout-cell-11 {
+    min-height: 331px;
+  }
+
+  .u-section-1 .u-container-layout-11 {
+    padding-top: 23px;
+  }
+
+  .u-section-1 .u-layout-cell-12 {
+    min-height: 331px;
+  }
+
+  .u-section-1 .u-layout-cell-13 {
+    min-height: 331px;
+  }
+
+  .u-section-1 .u-layout-cell-14 {
+    min-height: 82px;
   }
 }
